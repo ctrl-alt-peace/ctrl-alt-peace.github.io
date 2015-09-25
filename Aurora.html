@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Aurora</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/shop-item.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="jquery-1.11.2.min.js">
+    $(document).ready(function() {
+        var imageLinks = $('a[href$=".png"], a[href$=".jpg"], a[href$=".gif"], a[href$=".bmp"]');
+        if (imageLinks.children('img').length) {
+            imageLinks.children('img').each(function() {
+                var currentTitle = $(this).attr('title');
+                $(this).attr('title', currentTitle + ' (click to enlarge image)');
+            });
+            imageLinks.click(function(e) {
+                e.preventDefault();
+                $(this).children('img').toggleClass('expanded');
+            });
+        }
+    });</script>
+
+</head>
+
+<body>
+
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="img/logo_140x51.png" alt="international alert" style="margin-top: -15px"/></a>
+      </div>
+
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class=""><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+
+          <li class="dropdown active">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories <span class="caret"></span></a>
+
+            <ul class="dropdown-menu">
+
+              <li><a href="charity apps.html">Charity Apps</a></li>
+
+              <li><a href="news and info.html">News & Information</a></li>
+
+              <li><a href="games.html">Games</a></li>
+
+              <li><a href="safety & prevention.html">Safety & Prevention</a></li>
+                
+                <li><a href="emerging tech.html">Emerging Tech</a></li>
+                
+                <li><a href="Web Portals.html">Web Portals</a></li>
+
+            </ul>
+          </li>
+
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+
+  <div class="container" style="margin-top:10px">
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <p class="lead">Safety & Prevention</p>
+                <div class="list-group">
+                    <a href="violence prevention.html" class="list-group-item active">Violence Prevention</a>
+                    <a href="safety guides.html" class="list-group-item">Safety Guides</a>
+                </div>
+                <a class="btn btn-primary btn-large" href="https://play.google.com/store/apps/details?id=com.komosion.aurora&hl=en">Download Android</a>
+                <a class="btn btn-primary btn-large" href="https://itunes.apple.com/au/app/aurora/id611015460?mt=8">Download iOS</a>
+
+                <div class="well" style="margin-top:20px">
+                    <h4>Permissions Needed</h4>
+                    <p><b>Contacts</b>
+                       <ul>
+                        <li>Read your contacts</li>
+                       </ul>
+                       <b>Location</b>
+                       <ul>
+                         <li>Precise location (GPS and network-based)</li>
+                         <li>Approximate location (network-based)</li>
+                       </ul>
+                       <b>SMS</b>
+                       <ul>
+                         <li>Send SMS messages</li>
+                       </ul>
+                       <b>Phone</b>
+                       <ul>
+                         <li>Directly call phone numbers</li>
+                       </ul>
+                       <b>Other</b>
+                       <ul>
+                         <li>Full network access</li>
+                       </ul></P>
+                </div>
+
+                <div class="well" style="margin-top:20px">
+                    <h4>Aditional Information</h4>
+                    <p><b>Updated</b><br>28 April, 2013<br>
+                       <b>Size</b><br>1.5MB<br>
+                       <b>Current Version</b><br>1.2 (Android)/ 1.1.4 (iOS)<br>
+                       <b>Requires</b><br>Android 2.2 or later/ iOS 5.0 or later</p>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="thumbnail">
+                  <div class="col-sm-3 col-xs-6">
+              <a href="img/aurora pic 1.jpg">
+                  <img class="img-responsive portfolio-item" src="img/aurora pic 1.jpg" alt="">
+              </a>
+          </div>
+
+          <div class="col-sm-3 col-xs-6">
+              <a href="img/aurora pic 2.jpg">
+                  <img class="img-responsive portfolio-item" src="img/aurora pic 2.jpg" alt="">
+              </a>
+          </div>
+
+          <div class="col-sm-3 col-xs-6">
+              <a href="img/aurora pic 3.jpg">
+                  <img class="img-responsive portfolio-item" src="img/aurora pic 3.jpg" alt="">
+              </a>
+          </div>
+
+          <div class="col-sm-3 col-xs-6">
+              <a href="img/aurora pic 4.jpg">
+                  <img class="img-responsive portfolio-item" src="img/aurora pic 4.jpg" alt="">
+              </a>
+          </div>
+                    <div class="caption-full">
+                        <h4 class="pull-right">Free!</h4>
+                        <h4><a href="http://www.women.nsw.gov.au/violence_prevention/domestic_and_family_violence_app">Aurora</a>
+                        </h4>
+                        <p>Welcome to Aurora, the application from the NSW Department of Family and Community Services (FACS) that can help you if you are experiencing domestic violence or are worried about your relationship.<br>Please note: this application is for your use only. Try to access it when you have some time on your own and feel safe from interruptions.<br>If you are in an abusive relationship (or suspect that you might be), please be careful of who sees you using the app or who knows it is on your device. In particular:
+                          <ul>
+                            <li>Your Google Play account will keep a history of your downloads. This app will appear in that list.</li>
+                            <li>Deleting the app does not clear it from your account history automatically.</li>
+                            <li>This app has the ability to send messages and make phone calls on your behalf. Those messages and phone calls will be logged just like any message or phone call you make. These can be deleted by going through your phone icon into 'Recents' and 'Edit'.</li>
+                            <li>If you follow any of the internet links in the information section of the app, those pages will be remembered by your phone's browser history.</li>
+                            <li>There is a topic in the What To Do information section of the app that talks about phone and IT safety and how to protect yourself from the risks above. Please read and familiarise yourself with it.</li></ul>
+                          <br>Please be cautious in using this application, especially if your partner has access to or checks your phone, messages, or internet history on your desktop or mobile device.<br>SMS MESSAGES<br>Aurora can send quick individual or group messages to a list of your friends. The app will ask you to put a number of friends into your list the first time you open the Message feature. Choose close, trustworthy friends, who have a genuine concern for you. If possible, choose friends who live nearby and that are aware of your concerns<br>The SMS messages that Aurora can send are:<br>Call me
+                          <ul>
+                            <li>to let friends know that you need someone to call you right now: perhaps as an interruption, to defuse a situation at home, or because you have a more urgent need.</li></ul>
+                          <br>Come pick me up
+                          <ul>
+                            <li>for when you just need to be taken out of the situation, whatever that is. This will include your location from your phone's GPS system as a map so that your friends can check on their smartphone.</li></ul>
+                          <br>Call the police for me
+                          <ul>
+                            <li>to let friends know that you need emergency help, but are not able to speak to Triple Zero 000 yourself. It's important to be sure your friend is available and is able to call for you.</li></ul>
+                          <br>Custom
+                          <ul>
+                            <li>This is a message you can write yourself. There may be a message or a code that you can think of which you want to send to your circle of friends quickly.</li></ul>
+                          <br>EMERGENCY CALLS<br>Aurora can also make phone calls for you. It won't be able to play a message, which means you'll still have to talk or make yourself heard to the person who answers the phone, but it makes getting through to some important numbers quick and easy<br>Helpline 1800: This will call the NSW Domestic Violence Line: 1800 65 64 63. Trained female caseworkers are available 24 hours a day, 7 days a week<br>The caseworkers have experience with the special needs of Aboriginal women, women from different cultures, rural and remote areas, and same-sex partnerships (both female and male). Interpreters are also available<br>Call the Police: Your phone will call Emergency Triple Zero (000) after a 5 second countdown during which you can cancel the call if you have pressed the button accidentally. The phone will complete the call on its own if that 5 seconds passes. If you need to, you can press the button, put the phone down, and know that it will make the call for you. Remember, it will not play any message to the operator, it simply connects you to Emergency Triple Zero (000). If you need help immediately, you will have to speak aloud to request police</p>
+                    </div>
+                    <div class="ratings">
+                        <p class="pull-right">3 reviews</p>
+                        <p>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            4.7 stars
+                        </p>
+                    </div>
+                </div>
+
+                <div class="well">
+
+                  <div class="well" id="reviews-anchor">
+            <div class="row">
+              <div class="col-md-12">
+                                                                    </div>
+            </div>
+            <div class="text-right">
+              <a href="#reviews-anchor" id="open-review-box" class="btn btn-success btn-green">Leave a Review</a>
+            </div>
+            <div class="row" id="post-review-box" style="display:none;">
+              <div class="col-md-12">      <!--vv Change this when the website is live vv -->
+                <form method="POST" action="http://demos.maxoffsky.com/shop-reviews/products/1" accept-charset="UTF-8"><input name="_token" type="hidden" value="YZUxF5gihd5YfF37pOnOZ79F24P9na57bKHPy38j">                  <input id="ratings-hidden" name="rating" type="hidden">                  <textarea rows="5" id="new-review" class="form-control animated" placeholder="Enter your review here..." name="comment" cols="50"></textarea>                  <div class="text-right">
+                  <div class="stars starrr" data-rating="0"></div>
+                  <a href="#" class="btn btn-danger btn-sm" id="close-review-box" style="display:none; margin-right:10px;"> <span class="glyphicon glyphicon-remove"></span>Cancel</a>
+                  <button class="btn btn-success btn-lg" type="submit">Save</button>
+                </div>
+              </form>                </div>
+            </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            Adam Smith
+                            <span class="pull-right">19 May, 2013</span>
+                            <p><b>Fantastic app</b> Good to see an app designed to help people</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            Tash may
+                            <span class="pull-right">5 May, 2013</span>
+                            <p><b>Excellent</b> Great work from FaCS. Great app</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            Marla Brown
+                            <span class="pull-right">20 September, 2013</span>
+                            <p><b>Good idea - doesn't work properly</b> Message Friends makes it force close. Call to dv hotline works. Haven't tried calling 000. Info and settings both take you to welcome page, around in circles. If this app is designed for emergencies, you wanna be sure it works. Sadly lacking. S3 on 4.1.2.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; International Alert 2015</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery4.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap4.min.js"></script>
+
+    <script type="text/javascript" src='//code.jquery.com/jquery-1.10.2.min.js'></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+      <script src="http://demos.maxoffsky.com/shop-reviews/js/expanding.js"></script>
+  <script src="http://demos.maxoffsky.com/shop-reviews/js/starrr.js"></script>
+
+  <script type="text/javascript">
+    $(function(){
+
+      // initialize the autosize plugin on the review text area
+      $('#new-review').autosize({append: "\n"});
+
+      var reviewBox = $('#post-review-box');
+      var newReview = $('#new-review');
+      var openReviewBtn = $('#open-review-box');
+      var closeReviewBtn = $('#close-review-box');
+      var ratingsField = $('#ratings-hidden');
+
+      openReviewBtn.click(function(e)
+      {
+        reviewBox.slideDown(400, function()
+          {
+            $('#new-review').trigger('autosize.resize');
+            newReview.focus();
+          });
+        openReviewBtn.fadeOut(100);
+        closeReviewBtn.show();
+      });
+
+      closeReviewBtn.click(function(e)
+      {
+        e.preventDefault();
+        reviewBox.slideUp(300, function()
+          {
+            newReview.focus();
+            openReviewBtn.fadeIn(200);
+          });
+        closeReviewBtn.hide();
+
+      });
+
+      // If there were validation errors we need to open the comment form programmatically
+
+      // Bind the change event for the star rating - store the rating value in a hidden field
+      $('.starrr').on('starrr:change', function(e, value){
+        ratingsField.val(value);
+      });
+    });
+  </script>
+
+</body>
+
+</html>

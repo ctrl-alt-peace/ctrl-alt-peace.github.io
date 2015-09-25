@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Artez Event</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/shop-item.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="jquery-1.11.2.min.js">
+    $(document).ready(function() {
+        var imageLinks = $('a[href$=".png"], a[href$=".jpg"], a[href$=".gif"], a[href$=".bmp"]');
+        if (imageLinks.children('img').length) {
+            imageLinks.children('img').each(function() {
+                var currentTitle = $(this).attr('title');
+                $(this).attr('title', currentTitle + ' (click to enlarge image)');
+            });
+            imageLinks.click(function(e) {
+                e.preventDefault();
+                $(this).children('img').toggleClass('expanded');
+            });
+        }
+    });</script>
+
+</head>
+
+<body>
+
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="img/logo_140x51.png" alt="international alert" style="margin-top: -15px"/></a>
+      </div>
+
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class=""><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+
+          <li class="dropdown active">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories <span class="caret"></span></a>
+
+            <ul class="dropdown-menu">
+
+              <li><a href="charity apps.html">Charity Apps</a></li>
+
+              <li><a href="news and info.html">News & Information</a></li>
+
+              <li><a href="games.html">Games</a></li>
+
+              <li><a href="safety & prevention.html">Safety & Prevention</a></li>
+                
+                <li><a href="emerging tech.html">Emerging Tech</a></li>
+                
+                <li><a href="Web Portals.html">Web Portals</a></li>
+
+            </ul>
+          </li>
+
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+
+  <div class="container" style="margin-top:10px">
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <p class="lead">Charity Apps</p>
+                <div class="list-group">
+                    <a href="fundraising.html" class="list-group-item active">Fundraising</a>
+                    <a href="donation.html" class="list-group-item">Donation</a>
+                </div>
+                <a class="btn btn-primary btn-large" href="https://play.google.com/store/apps/details?id=com.artez.greatevent&hl=en">Download Android</a>
+                <a class="btn btn-primary btn-large" href="https://itunes.apple.com/ca/app/artez-event/id604021844?mt=8">Download iOS</a>
+
+                <div class="well" style="margin-top:20px">
+                    <h4>Permissions Needed</h4>
+                    <p><b>Identity</b>
+                       <ul>
+                         <li>Find accounts on the device</li>
+                       </ul>
+                       <b>Calendar</b>
+                       <ul>
+                         <li>Read calendar events plus confidential information</li>
+                         <li>Add or modify calendar events and send email to guests without owner's knowledge</li>
+                       </ul>
+                       <b>Photos/Media/Files</b>
+                       <ul>
+                         <li>Modify or delet the contents of your USB storage</li>
+                         <li>Read the contents of your USB storage</li>
+                       </ul>
+                       <b>Calendar</b>
+                       <ul>
+                         <li>Read calendar event plus confidential information</li>
+                         <li>Add or modify calendar events and send email to guests without owners' knowledge</li>
+                       </ul>
+                       <b>Phone</b>
+                       <ul>
+                         <li>Directly call phone numbers</li>
+                       </ul>
+                       <b>Device ID & Call Infomation</b>
+                       <ul>
+                         <li>Read phone status and identity</li>
+                       </ul>
+                       <b>Other</b>
+                       <ul>
+                         <li>Recieve data from internet</li>
+                         <li>View network connections</li>
+                         <li>Full network connections</li>
+                         <li>Control flashlight</li>
+                         <li>Prevent device from sleeping</li>
+                       </ul></P>
+                </div>
+
+                <div class="well" style="margin-top:20px">
+                    <h4>Aditional Information</h4>
+                    <p><b>Updated</b><br>7 March, 2013<br>
+                       <b>Size</b><br>1.5MB<br>
+                       <b>Current Version</b><br>1.0 (Android)/ 2.3.3(iOS)<br>
+                       <b>Requires</b><br>Android 2.2 or later/ iOS 4.3 or later</p>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="thumbnail">
+                  <div class="col-sm-3 col-xs-6">
+              <a href="img/artez pic 1.jpg">
+                  <img class="img-responsive portfolio-item" src="img/artez pic 1.jpg" alt="">
+              </a>
+          </div>
+
+          <div class="col-sm-3 col-xs-6">
+              <a href="img/artez pic 2.jpg">
+                  <img class="img-responsive portfolio-item" src="img/artez pic 2.jpg" alt="">
+              </a>
+          </div>
+
+          <div class="col-sm-3 col-xs-6">
+              <a href="img/artez pic 3.jpg">
+                  <img class="img-responsive portfolio-item" src="img/artez pic 3.jpg" alt="">
+              </a>
+          </div>
+
+          <div class="col-sm-3 col-xs-6">
+              <a href="img/artez pic 4.jpg">
+                  <img class="img-responsive portfolio-item" src="img/artez pic 4.jpg" alt="">
+              </a>
+          </div>
+                    <div class="caption-full">
+                        <h4 class="pull-right">Free!</h4>
+                        <h4><a href="http://old.artez.com/mobile/apps">Artez Event</a>
+                        </h4>
+                        <p>The Great Event mobile app is a product demonstration of the Artez App for iPhone(Android). When this app is built with your branding & messages, your charity or non-profit organization can leverage the power of mobile technology to help your event participants fundraise for your cause.<br>Participants in a peer-to-peer fundraising campaign (like a run, walk or ride) can use an app like this one to:
+                          <ul>
+                            <li>Track donations on an individual fundraising thermometer.</li>
+                            <li>View personalized event day information like dates, times, location and map.</li>
+                            <li>Access the phone’s address books to send emails</li>
+                            <li>Share on Facebook & Twitter</li>
+                            <li>Instantly process secure credit card or PayPal donations</li>
+                            <li>Learn more about your charity</li>
+                            <li>Upload images from their phone photo library to their personal page</li>
+                            <li>Provide real-time news and blog updates to participants</li></ul>
+                        <br>This app is free to download. Registration in our demonstration event is also required. Please contact Artez for access to the web version of our product.</p>
+                    </div>
+                    <div class="ratings">
+                        <p class="pull-right">0 reviews</p>
+                        <p>Not Rated</p>
+                    </div>
+                </div>
+
+                <div class="well">
+
+                  <div class="well" id="reviews-anchor">
+            <div class="row">
+              <div class="col-md-12">
+                                                                    </div>
+            </div>
+            <div class="text-right">
+              <a href="#reviews-anchor" id="open-review-box" class="btn btn-success btn-green">Leave a Review</a>
+            </div>
+            <div class="row" id="post-review-box" style="display:none;">
+              <div class="col-md-12">      <!--vv Change this when the website is live vv -->
+                <form method="POST" action="http://demos.maxoffsky.com/shop-reviews/products/1" accept-charset="UTF-8"><input name="_token" type="hidden" value="YZUxF5gihd5YfF37pOnOZ79F24P9na57bKHPy38j">                  <input id="ratings-hidden" name="rating" type="hidden">                  <textarea rows="5" id="new-review" class="form-control animated" placeholder="Enter your review here..." name="comment" cols="50"></textarea>                  <div class="text-right">
+                  <div class="stars starrr" data-rating="0"></div>
+                  <a href="#" class="btn btn-danger btn-sm" id="close-review-box" style="display:none; margin-right:10px;"> <span class="glyphicon glyphicon-remove"></span>Cancel</a>
+                  <button class="btn btn-success btn-lg" type="submit">Save</button>
+                </div>
+              </form>                </div>
+            </div>
+
+                    <hr>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; International Alert 2015</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery4.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap4.min.js"></script>
+
+    <script type="text/javascript" src='//code.jquery.com/jquery-1.10.2.min.js'></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+      <script src="http://demos.maxoffsky.com/shop-reviews/js/expanding.js"></script>
+  <script src="http://demos.maxoffsky.com/shop-reviews/js/starrr.js"></script>
+
+  <script type="text/javascript">
+    $(function(){
+
+      // initialize the autosize plugin on the review text area
+      $('#new-review').autosize({append: "\n"});
+
+      var reviewBox = $('#post-review-box');
+      var newReview = $('#new-review');
+      var openReviewBtn = $('#open-review-box');
+      var closeReviewBtn = $('#close-review-box');
+      var ratingsField = $('#ratings-hidden');
+
+      openReviewBtn.click(function(e)
+      {
+        reviewBox.slideDown(400, function()
+          {
+            $('#new-review').trigger('autosize.resize');
+            newReview.focus();
+          });
+        openReviewBtn.fadeOut(100);
+        closeReviewBtn.show();
+      });
+
+      closeReviewBtn.click(function(e)
+      {
+        e.preventDefault();
+        reviewBox.slideUp(300, function()
+          {
+            newReview.focus();
+            openReviewBtn.fadeIn(200);
+          });
+        closeReviewBtn.hide();
+
+      });
+
+      // If there were validation errors we need to open the comment form programmatically
+
+      // Bind the change event for the star rating - store the rating value in a hidden field
+      $('.starrr').on('starrr:change', function(e, value){
+        ratingsField.val(value);
+      });
+    });
+  </script>
+
+</body>
+
+</html>
